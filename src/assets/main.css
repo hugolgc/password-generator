@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  p {
+    @apply px-4 py-2 border border-neutral-700 rounded-lg tracking-wide;
+  }
+}
